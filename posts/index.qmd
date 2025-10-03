@@ -1,6 +1,0 @@
----
-title: "글 모음"
-listing:
-  contents: posts
-  sort: "date desc"
----

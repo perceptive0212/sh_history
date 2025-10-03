@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/2025-10-03-first-post.html",
+    "href": "posts/2025-10-03-first-post.html",
+    "title": "첫 글: 분석 재현성 점검",
+    "section": "",
+    "text": "분석 결과를 문서에 고정(freeze)하는 예시입니다.\n\nimport sys, platform\nplatform.python_version()\n\n'3.11.13'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "환영합니다",
+    "section": "",
+    "text": "첫 페이지 테스트입니다. posts/ 폴더에 글을 추가해 보세요."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "글 모음",
+    "section": "",
+    "text": "No matching items"
+  }
+]
