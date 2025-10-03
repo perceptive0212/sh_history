@@ -1,11 +1,45 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+
 website:
-  title: "데이터분석 로그"
+  title: "데이터 분석 블로그"
+  description: "데이터 분석 학습 및 프로젝트 기록"
+  
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Posts"
+        href: posts.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/perceptive0212
+        
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "카테고리"
+        contents:
+          - text: "Python"
+            href: posts/python/
+          - text: "데이터 분석"
+            href: posts/analysis/
+          - text: "시각화"
+            href: posts/visualization/
+
 format:
   html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
     toc: true
-execute:
-  freeze: auto
-  cache: false
+    toc-depth: 3
+    code-fold: false
+    code-tools: true
