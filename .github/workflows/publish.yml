@@ -9,6 +9,7 @@ on:
       - "_quarto.yml"
       - "styles.css"
       - ".github/workflows/publish.yml"
+      - "requirements.txt" 
   workflow_dispatch:
 
 jobs:
