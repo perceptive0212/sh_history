@@ -1,0 +1,18 @@
+---
+title: "환영합니다"
+description: "Quarto + GitHub Pages 블로그 스타터"
+---
+
+## 시작하기
+왼쪽 사이드바 검색을 사용해 보세요. `posts/` 폴더에 글을 추가하면 목록에 나타납니다.
+
+```{python}
+#| label: fig-sin
+#| fig-cap: "샘플 플롯"
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0, 10, 200)
+plt.plot(x, np.sin(x))
+plt.title("Hello, Quarto!")
+plt.show()
+```

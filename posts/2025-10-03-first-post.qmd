@@ -1,0 +1,12 @@
+---
+title: "첫 글: 분석 재현성 점검"
+date: 2025-10-03
+categories: [python, reproducibility]
+---
+
+분석 결과를 문서에 고정(freeze)하는 예시입니다.
+
+```{python}
+import sys, platform
+platform.python_version()
+```

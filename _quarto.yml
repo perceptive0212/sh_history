@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "데이터분석 로그"
+  navbar:
+    left:
+      - text: 홈
+        href: index.qmd
+      - text: 글 모음
+        href: posts/index.qmd
+  sidebar:
+    style: floating
+    search: true
+  page-footer:
+    left: "© 2025 나의 데이터랩"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    code-fold: show
+    code-tools: true
+    smooth-scroll: true
+    number-sections: false
+    highlight-style: github
+    lang: ko
+    css: styles.css
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  cache: true
